@@ -15,7 +15,7 @@ ul.nav a:hover {
 
 body{
   padding-top: 70px;
-  background-image: url('bg.jpg');
+  background-image: url('/images/bg.jpg');
   background-size: cover;
   background-position: center;
   margin: 0 auto;
