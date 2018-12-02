@@ -43,7 +43,7 @@ body{
 
 p{
   font-family: Verdana;
-  font-size: 1.5vw;
+  font-size: calc(10px + .5vw);
 }
 
 a{
@@ -53,7 +53,7 @@ a{
 input{
   border: 0;
   padding: 10px;
-  font-size: 1.25vw;
+  font-size: calc(8px + .5vw);
   color: black;
 }
 input[type="submit"]{
@@ -68,19 +68,19 @@ input[type="submit"]{
 .btn-twitter {
   background: #00acee;
   border-color: #009ad5;
-  font-size: 1.5vw;
+  font-size: calc(10px + .5vw);
 }
 
 .btn-facebook {
   background: #4868ac;
   border-color: #314776;
-  font-size: 1.5vw;
+  font-size: calc(10px + .5vw);
 }
 
 .btn-pinterest {
   background: #b62f26;
   border-color: #b62f26;
-  font-size: 1.5vw;
+  font-size: calc(10px + .5vw);
 }
 
 .table-hover tbody tr:hover,
@@ -90,5 +90,6 @@ input[type="submit"]{
     color:#fff !important;
 }
 table{
-  font-size: 1.25vw;
+  font-size: calc(8px + .5vw)
+
 }
