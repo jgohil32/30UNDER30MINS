@@ -1,0 +1,38 @@
+body{
+  padding: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.media{
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  text-align:center;
+}
+.media-body{
+  padding: 100px;
+}
+p{
+  font-family: Verdana;
+  font-size: 22px;
+}
+
+a{
+  color: #117A65;
+  text-decoration: underline;
+}
+input{
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+input[type="submit"]{
+  background: #117A65;
+  color: white;
+}

@@ -1,0 +1,66 @@
+.navbar {
+    background-color: rgba(0,0,0,0.7) !important;
+}
+.active{
+    font-weight: bold !important;
+    color: white !important;
+    font-size: 110%;
+}
+
+ul.nav a:hover {
+  color: white !important;
+  background-color: rgba(0,0,0,0.3) !important;
+  font-size: 110%;
+}
+
+body{
+  padding-top: 70px;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.container-fluid {
+  background: rgba(0,0,0,0.8);
+  padding: 5%;
+}
+
+.image-responsive{
+  max-width: 320px;
+  max-height: 500px;
+}
+@media screen and (max-width : 768px){
+    .image-responsive{
+      max-width: 100%;
+    }
+}
+
+.media-body{
+  text-align: center;
+}
+
+p{
+  font-family: Verdana;
+  font-size: 1.5vw;
+}
+
+a{
+  color: rgb(255,191,0);
+  text-decoration:none;
+}
+input{
+  border: 0;
+  padding: 10px;
+  font-size: 1.25vw;
+  color: black;
+}
+input[type="submit"]{
+  background: #117A65;
+  color: white;
+}
+.image{
+  width: 100%;
+  height: auto;
+}
