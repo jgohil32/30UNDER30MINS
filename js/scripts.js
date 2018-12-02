@@ -1,5 +1,3 @@
-console.log("Hello World")
-
-$("button").click(function(){
-  alert("Button has been clicked!")
+$("input").click(function(){
+  alert("Thank you for subscribing!")
 })
